@@ -36,7 +36,6 @@ env/
 .DS_Store
 
 # Project specific
-videos/
 transcriptions.json
 
 # Environment variables
