@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - DOCKER=true
+    volumes:
+      - ./tmp:/app/tmp
+      - ./videos:/app/videos
+      - ./transcriptions.json:/app/transcriptions.json
+    restart: unless-stopped

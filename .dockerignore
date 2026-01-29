@@ -1,0 +1,11 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+.env.example
+.venv
+.mypy_cache
+.pytest_cache
+*.md
+!prompts/*.md
