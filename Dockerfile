@@ -23,7 +23,7 @@ COPY . .
 RUN mkdir -p tmp
 
 # Expose port
-EXPOSE 8000
+EXPOSE 7777
 
 # Run the application
 CMD ["uv", "run", "python", "agent.py"]
